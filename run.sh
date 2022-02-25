@@ -27,15 +27,10 @@ echo "Please make sure to provide a GitHub handle"
 exit 0
 fi
 
-# Pre-fetching
-echo "Removing previous available repo"
-rm -rf "COE_211"
-echo "Successfully removed COE_211"
-
 # Fetching
 GIT_URL="git@github.com:"$GITHUB_HANDLE"/COE_211.git"
-echo "Cloning $GIT_URL"
-git clone $GIT_URL
+echo "Cloning $GIT_URL into $GITHUB_HANDLE"
+git clone $GIT_URL $GITHUB_HANDLE
 
 echo "Opening cloned repo"
 code "COE_211/"
