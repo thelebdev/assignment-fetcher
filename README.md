@@ -5,6 +5,10 @@ This is where automation provides SOME sort of help.
 
 In an effort to maximize my time's efficiency while correcting assignments, and directing my time, energy and attention towards judging the actual code quality of a student, rather than the management drawbacks of teaching, I've decided to create this code.
 
+# Running
+1. Clone the repository into the directory where the assignments will be cloned.
+2. Run `bash run.sh`
+
 # What does it do?
 ## Assumptions & Expectations
 It practically expects a string input, representing the GitHub handle of the student.\n
