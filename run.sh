@@ -33,5 +33,5 @@ echo "Cloning $GIT_URL into $GITHUB_HANDLE"
 git clone $GIT_URL $GITHUB_HANDLE
 
 echo "Opening cloned repo"
-code "COE_211/"
+code $GITHUB_HANDLE
 echo "Done"
